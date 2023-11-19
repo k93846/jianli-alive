@@ -136,7 +136,7 @@ html {
 2. 熟练掌握 Vue全家桶的使用，包括 VueCli、Vite、VueRouter、Vuex 等。
 3. 熟悉 ES6和Vue3新特性。
 4. 掌握开发辅助工具如 SASS语法、 Git版本控制、 Vscode编程工具以及AI辅助编程等。
-5. 熟悉前后端分离技术。
+5. 熟悉前后端分离技术。 
 
 教育经历
 ----
