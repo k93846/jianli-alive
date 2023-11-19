@@ -122,11 +122,11 @@ html {
 ----
 
 * 素彩UI——一款基于 Vue3 / Vite / JavaScript 的 UI 框架。
-主要组件有开关选择器、各式按钮、弹出框、组件切换动效等，已发布至npm。【[预览](https://k93846.github.io/Sucai-ui-web/index.html#/)】
-* 赋能·Markdown——全原生JavaScript项目，可以使用Markdown语法，快速制作PPT。【[预览](https://k93846.github.io/pf-markdown/)】
-* 简·账——自行设计的极简记账应用，特点是快速记账，可以通过图表查看自己的消费习惯。【[预览](https://k93846.github.io/money-web/)】
-* 可自定义的前端导航【[预览](https://k93846.github.io/nav-1/dist/index.html)】
-* 会动的皮卡丘【[预览](https://k93846.github.io/pikachu-1/src/test.html)】
+主要组件有开关选择器、各式按钮、弹出框、组件切换动效等，已发布至npm。
+* 赋能·Markdown——全原生JavaScript项目，可以使用Markdown语法，快速制作PPT。
+* 简·账——自行设计的极简记账应用，特点是快速记账，可以通过图表查看自己的消费习惯。
+* 可自定义的前端导航
+* 会动的皮卡丘
 * ……
 
 技能
@@ -152,7 +152,6 @@ html {
 链接
 ----
 
-* [我的飞书](https://iazbxhecrn6.feishu.cn/drive/folder/J05rfoHJhlI9n3dH0v8cEZJFneu)
 * [返回静态简历](https://k93846.github.io/jianli-static/src/index.html)
 
 > 感谢面试官在百忙之中能抽出时间来阅读我的简历，我若有幸收到现场面试邀约，一定盛情赴会。
