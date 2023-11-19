@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 0,
+        interval: 25,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
@@ -126,36 +126,52 @@ html {
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `石东昊
 ----
 
-资深前端工程师，资深前端讲师
-现在在 [饥人谷](http://jirengu.com) 教前端课程。
+男 | 24岁 |  广州
+求职意向：前端开发工程师
+
+手机：13974391326（微信同号）
+
+项目经历
+----
+
+* 素彩UI——一款基于 Vue3 / Vite / JavaScript 的 UI 框架。
+主要组件有开关选择器、各式按钮、弹出框、组件切换动效等，已发布至npm。【[预览](https://k93846.github.io/Sucai-ui-web/index.html#/)】
+* 赋能·Markdown——全原生JavaScript项目，可以使用Markdown语法，快速制作PPT。【[预览](https://k93846.github.io/pf-markdown/)】
+* 简·账——自行设计的极简记账应用，特点是快速记账，可以通过图表查看自己的消费习惯。【[预览](https://k93846.github.io/money-web/)】
+* 可自定义的前端导航【[预览](https://k93846.github.io/nav-1/dist/index.html)】
+* 会动的皮卡丘【[预览](https://k93846.github.io/pikachu-1/src/test.html)】
+* ……
 
 技能
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+1. 熟练掌握HTML、CSS、JavaScript基本功，能将设计稿完美还原。
+2. 熟练掌握 Vue全家桶的使用，包括 VueCli、Vite、VueRouter、Vuex 等。
+3. 熟悉 ES6和Vue3新特性。
+4. 掌握开发辅助工具如 SASS语法、 Git版本控制、 Vscode编程工具以及AI辅助编程等。
+5. 熟悉前后端分离技术。 
+
+教育经历
+----
+
+* 2017年9月~2021年7月：中央民族大学(985工程，双一流A) 本科 行政管理
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+* 2021年8月~2023年4月：中建三局绿色产业投资有限公司 网络党建岗
+
 
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [我的飞书](https://iazbxhecrn6.feishu.cn/drive/folder/J05rfoHJhlI9n3dH0v8cEZJFneu)
+* [返回静态简历](https://k93846.github.io/jianli-static/src/index.html)
 
-> 如果你喜欢这个效果，
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+> 感谢面试官在百忙之中能抽出时间来阅读我的简历，我若有幸收到现场面试邀约，一定盛情赴会。
 
 `
       }
@@ -176,7 +192,8 @@ Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你
         return new Promise((resolve, reject) => {
           this.enableHtml = true
           this.$nextTick(() => {
-            this.$refs.resumeEditor.goTop()
+            this.$refs.resumeEditor.goBottom()
+            // this.$refs.resumeEditor.goTop()
           })
           resolve()
         })
@@ -202,6 +219,7 @@ Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你
               setTimeout(showStyle, interval)
             } else {
               resolve()
+              document.querySelector('#scroll-test').scrollTo(0,999)
             }
           }).bind(this)
           showStyle()
