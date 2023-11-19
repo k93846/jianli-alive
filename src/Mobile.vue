@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 25,
+        interval: 0,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
@@ -71,14 +71,14 @@ html {
 
 .styleEditor {
   position: fixed; 
-  transform: perspective(1000px) rotateY(13deg) rotateZ(-2deg);
+  transform: perspective(1000px) rotateX(-10deg) rotateZ(0deg);
 }
 
 /* 接下来我准备一个简历编辑器。 */
 .resumeEditor{
   position: fixed;
-  top: 50%; left: 0;
-  padding: .5em;  margin: 2.5vh;
+  top: 50%;
+  padding: .5em;  margin: 2.5vh 2.5vw;
   width: 95vw; height: 45vh;
   border: 1px solid;
   background: white; color: #222;

@@ -1,7 +1,7 @@
 <template>
   <div class="styleEditor" ref="container">
     <div class="code" v-html="codeInStyleTag"></div>
-    <pre class="" v-html="highlightedCode"></pre>
+    <pre class="" v-html="highlightedCode" style="white-space:pre-wrap;word-break:break-word;"></pre>
   </div>
 </template>
 
