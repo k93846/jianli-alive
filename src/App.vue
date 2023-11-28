@@ -152,7 +152,7 @@ html {
 链接
 ----
 
-* [返回静态简历](https://k93846.github.io/jianli-static/src/index.html)
+* [返回静态简历](https://k93846.gitee.io/jianli-static/src/index.html)
 
 > 感谢面试官在百忙之中能抽出时间来阅读我的简历，我若有幸收到现场面试邀约，一定盛情赴会。
 
