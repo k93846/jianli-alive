@@ -56,14 +56,14 @@ html {
   display: none;
 }
 .styleEditor {
-  position: fixed; 
+  position: fixed;
   transform: perspective(1000px) rotateY(13deg) rotateZ(-2deg);
 }
 
 /* 接下来我准备一个简历编辑器。 */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
-  padding: .5em;  
+  padding: .5em;
   margin: 30px;
   width: 48vw; height: 90vh;
   border: 1px solid;
@@ -73,7 +73,7 @@ html {
 /*我开始在编辑器中写简历了。*/
 `,
           `
-/* 
+/*
  * 整体转换一下简历格式。
  */
 `
@@ -136,18 +136,18 @@ html {
 2. 熟练掌握 Vue全家桶的使用，包括 VueCli、Vite、VueRouter、Vuex 等。
 3. 熟悉 ES6和Vue3新特性。
 4. 掌握开发辅助工具如 SASS语法、 Git版本控制、 Vscode编程工具以及AI辅助编程等。
-5. 熟悉前后端分离技术。 
+5. 熟悉前后端分离技术。
 
 教育经历
 ----
 
-* 2017年9月~2021年7月：中央民族大学(985工程，双一流A) 本科
+* 2017年9月~2021年7月：中央民族大学(双一流A) 本科
 
 工作经历
 ----
 
 * 2021年8月~2023年4月：中建三局绿色产业投资有限公司 网络党建岗
-* 2023年4月~2023年11月：技术精进与Web项目打造
+* 2023年4月~2024年3月：技术精进与Web项目打造
 
 
 
@@ -225,7 +225,7 @@ html {
                 this.$nextTick(() => this.$refs.resumeEditor.goBottom())
               }
               setTimeout(showResume, interval)
-              
+
             } else {
               resolve()
             }
